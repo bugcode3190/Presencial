@@ -1,4 +1,4 @@
-package Model;
+package Model.EntidadesCompartidas;
 
 public enum Rol {
 	ADMINISTRADOR("Administrador", "Administrador de sistema"),

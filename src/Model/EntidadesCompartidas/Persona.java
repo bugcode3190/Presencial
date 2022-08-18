@@ -1,4 +1,4 @@
-package Model;
+package Model.EntidadesCompartidas;
 
 import java.util.Date;
 
@@ -25,6 +25,9 @@ public class Persona {
 		this.clave = clave;
 		this.mail = mail;
 		this.rol = rol;
+	}
+	public Persona(){
+
 	}
 
 	public Persona(String documento) {

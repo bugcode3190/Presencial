@@ -1,6 +1,8 @@
+package Model.Persistencia;
 
-import Model.Persona;
-import Model.Rol;
+import Model.EntidadesCompartidas.Funcionalidad;
+import Model.EntidadesCompartidas.Persona;
+import Model.EntidadesCompartidas.Rol;
 
 import java.sql.Connection;
 import java.sql.ResultSet;
@@ -36,7 +38,7 @@ public class AutorizacionesSistema {
 		}
 	}
 	
-	public void asignarFuncionalidadesRol(ArrayList<String> funcionalidades, Rol rol) {
+	public void asignarFuncionalidadesRol(ArrayList<Funcionalidad> funcionalidades, Rol rol) {
 		
 	}
 

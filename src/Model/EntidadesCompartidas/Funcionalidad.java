@@ -1,4 +1,4 @@
-package Model;
+package Model.EntidadesCompartidas;
 
 import java.util.ArrayList;
 
